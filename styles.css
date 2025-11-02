@@ -14,11 +14,11 @@ button {
 }
 
 button:hover {
-    background-color: #444;
+    background-color: #555; /* Changed from #444 to #555 for better contrast */
     color: #ffffff;
 }
 
 body.dark-mode button:hover {
-    background-color: #666;
+    background-color: #777; /* Changed from #666 to #777 for better contrast */
     color: #ffffff;
 }
