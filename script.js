@@ -3,6 +3,9 @@ const currentTheme = localStorage.getItem('theme');
 
 if (currentTheme === 'dark') {
     document.body.classList.add('dark-mode');
+    toggleButton.textContent = 'Disable Dark Mode';
+} else {
+    toggleButton.textContent = 'Enable Dark Mode';
 }
 
 toggleButton.addEventListener('click', () => {
