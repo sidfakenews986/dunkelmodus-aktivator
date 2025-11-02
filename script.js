@@ -9,5 +9,5 @@ toggleButton.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
     const isDarkMode = document.body.classList.contains('dark-mode');
     localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
-    toggleButton.textContent = isDarkMode ? 'Dunkelmodus ausschalten' : 'Dunkelmodus einschalten';
+    toggleButton.textContent = isDarkMode ? 'Disable Dark Mode' : 'Enable Dark Mode';
 });
